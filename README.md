@@ -1,9 +1,10 @@
 # generator-redux-feature [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Yeoman generator for creating redux feature folders.
 
-This generator generates a redux feature folder structure. The folder structure is similar to ducks
-with the main concerns split into their own files. Each main concern (worth testing) has a matching
-spec file. The spec files are written to work in a Jest testing environment.
+This generator generates a redux feature folder structure. The folder structure is similar to
+[Ducks](https://github.com/erikras/ducks-modular-redux) with the main concerns split into their own
+files. Each main concern (worth testing) has a matching spec file. The spec files are written to
+work in a Jest testing environment.
 
 The generated folder structure is as follows:
 
