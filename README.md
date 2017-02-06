@@ -21,6 +21,8 @@ feature/
 └── selectors.spec.js
 ```
 
+The generated files are based on the template in [`app/templates/feature`](https://github.com/Fullscreen/generator-redux-feature/tree/master/generators/app/templates/feature).
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-redux-feature using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
