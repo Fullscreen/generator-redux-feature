@@ -23,13 +23,18 @@ module.exports = Generator.extend({
 
     var prompts = [{
       type: 'confirm',
-      name: 'someAnswer',
+      name: 'shouldCreate',
       message: 'Create ' + featureName + ' folder in ' + this.destinationRoot() + ' ?',
       default: true
     }];
 
-    return this.prompt(prompts).then(function (props) {
-      // To access props later use this.props.someAnswer;
+    return this.prompt(prompts)
+    .then(function (props) {
+      if (!props.shouldCreate) {
+        console.log('Generator cancelled.');
+        process.exit(1);
+      }
+      // To access props later use this.props.`property`;
       this.props = props;
     }.bind(this));
   },
