@@ -27,18 +27,6 @@ export const action = () => ({
 // thunk middleware action creators
 // import fetch from 'isomorphic-fetch';
 
-
-// export const apiAction = () => {
-//   return dispatch => {
-//     dispatch(actionRequest());
-
-//     return fetch('api-endpoint-url')
-//       .then(data => data.json())
-//       .then(data => dispatch(actionSuccess(data)))
-//       .catch(err => dispatch(actionFailure(err)));
-//   }
-// };
-
 // export const actionRequest = () => ({
 //   type: t.ACTION_REQUEST,
 //   payload: { /* todo: add or remove payload */ },
@@ -54,3 +42,14 @@ export const action = () => ({
 //   payload: err,
 //   error: true,
 // });
+
+// export const apiAction = () => {
+//   return dispatch => {
+//     dispatch(actionRequest());
+
+//     return fetch('api-endpoint-url')
+//       .then(data => data.json())
+//       .then(data => dispatch(actionSuccess(data)))
+//       .catch(err => dispatch(actionFailure(err)));
+//   }
+// };
