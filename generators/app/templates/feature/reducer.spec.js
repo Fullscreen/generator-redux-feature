@@ -5,7 +5,7 @@ describe('<%= featureName %>', () => {
   describe('reducer', () => {
     it('should have a default state', () => {
       const expected = {};
-      const actual = reducer(undefined, {type: null});
+      const actual = reducer(undefined, { type: null });
 
       expect(expected).toEqual(actual);
     });
