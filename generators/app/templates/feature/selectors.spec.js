@@ -2,7 +2,7 @@ import * as s from './selectors';
 
 
 describe('<%= featureName %>', () => {
-  describe('seletors', () => {
+  describe('selectors', () => {
     // todo: fill out state to match your feature's state
     const state = {
       <%= featureName %>: {

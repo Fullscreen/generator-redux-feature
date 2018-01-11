@@ -1,7 +1,7 @@
 import * as t from './action-types';
 
 
-const initialState = {
+export const initialState = {
   // todo: add initial state
 };
 

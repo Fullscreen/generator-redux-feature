@@ -10,6 +10,15 @@ export const action = () => ({
   payload: { /* todo: add or remove payload */ },
 });
 
+// redux-axios-middleware action creators
+// export const apiAction = () => ({
+//   types: [t.ACTION_REQUEST,'t.ACTION_SUCCESS','t.ACTION_FAILURE'],
+//   payload: {
+//     request: {
+//       url:'/endpoint'
+//     },
+//   },
+// });
 
 // redux-api-middleware action creators
 // import { CALL_API } from 'redux-api-middleware';
